@@ -156,28 +156,28 @@ To test the grammar, a program in Python needs to be written. Adding the grammar
 
 ### Correct sentences
 
-- haksaeng eul meokda  
-- chingu eul meokda geurigo saranghada  
-- seonsaengnim i masida  
-- haksaeng eun norae reul masida  
-- jib eul meokda eoyo  
-- haksaeng i saranghada eoyo  
-- mul eul malhada  
-- haksaeng eul meokda hajiman chingu eul malhada  
-- seonsaengnim eun haksaeng eul saranghada  
-- haksaeng i meokda geurigo seonsaengnim i malhada  
-- haksaeng eul malhada  
-- haksaeng i saranghada  
-- seonsaengnim eul masida
+- haksaeng eul meokda — Eat the student
+- chingu eul meokda geurigo saranghada — Eat the friend and love
+- seonsaengnim i masida — The teacher drinks
+- haksaeng eun norae reul masida — The student drinks the song
+- jib eul meokda eoyo — Eat the house (formal)
+- haksaeng i saranghada eoyo — The student loves (formal)
+- mul eul malhada — Speak the water
+- haksaeng eul meokda hajiman chingu eul malhada — Eat the student but speak with the friend
+- seonsaengnim eun haksaeng eul saranghada — The teacher loves the student
+- haksaeng i meokda geurigo seonsaengnim i malhada — The student eats and the teacher speaks
+- haksaeng eul malhada — Speak to the student
+- haksaeng i saranghada — The student loves
+- seonsaengnim eul masida — Drink the teacher
 
 ### Incorrect sentences
 
-- jib masida wa chingu eul meokda  
-- seonsaengnim i meokda wa haksaeng eul saranghada  
-- chingu eul masida wa jib eul meokda  
-- albom eul meokda eoyoseo norae masida  
-- kpop eul meokda wa eumak eul masida  
-- haksaeng eun haksang eul meokda wa seonsaengnim eul masida
+- jib masida wa chingu eul meokda — Drink the house and eat the friend
+- seonsaengnim i meokda wa haksaeng eul saranghada — The teacher eats and loves the student
+- chingu eul masida wa jib eul meokda — Drink the friend and eat the house
+- albom eul meokda eoyoseo norae masida — Eat the album and thus drink the song
+- kpop eul meokda wa eumak eul masida — Eat kpop and drink music
+- haksaeng eun haksang eul meokda wa seonsaengnim eul masida — The student eats the student and drinks the teacher
 
 ### Running code
 
