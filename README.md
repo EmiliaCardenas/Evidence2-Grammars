@@ -131,3 +131,48 @@ For giving and ending in the creation of the sentences, there are some details l
 Conjunctions help add more information to the sentences:
 
 - **Conj:** geurigo | ttoneun | hajiman | wae냐하면
+
+### 6. Ambiguity and Left Recursion
+Korean allows multiple noun phrases to be connected with conjunctions. To eliminate the ambiguity in some cases, a new structure needs to be defined:
+- NPC -> NPC Conj NPCP | NPCP
+- NPCP -> NPC | NP
+  
+- **NPC** represents a noun phrase connected by conjunctions.
+- **NPCP** represents a noun phrase or a noun phrase with a conjunction.
+- **Conj** represents conjunctions.
+- **NP** represents a single noun phrase, as it was written before.
+
+### 7. Final Grammar
+S       → NPC VP NPC | NPC VP | VP NPC | VP  
+NPC     → NPC Conj NPCP | NPCP  
+NPCP    → NPC | NP  
+NP      → CR SubjParticle  
+NP      → CR ObjParticle  
+VP      → VoR TenseMarker PolitenessEnding  
+VoR     → gada | meokda | masida | boda | malhada | saranghada  
+TenseMarker → Empty | at | eot  
+PolitenessEnding → eoyo | seumnida  
+CR      → haksaeng | seonsaengnim | chingu | mul | jib | haksang | kpop | aideol | eumak | norae | albom  
+SubjParticle → eun | neun | i | ga  
+ObjParticle  → eul | reul  
+VoE     → neun | eul | reul | ga | i  
+EE      → wa | gwa | do | eseo  
+Empty   →  
+Conj    → geurigo | ttoneun | hajiman | waenyaheumyeon  
+
+For explenation:
+- **S** represents the full sentence structure, allowing different valid Korean sentence forms.
+- **NPC** represents a noun phrase connected by conjunctions.
+- **NPCP** prevents left recursion by separating chained noun phrases from individual ones.
+- **NP** represents a noun followed by either a subject or object particle.
+- **VP** represents the verb phrase, including the verb root, tense marker, and politeness ending.
+- **VoR** includes verb roots like "to go" (gada), "to eat" (meokda), "to drink" (masida), etc.
+- **TenseMarker** shows verb tense, such as Empty for present, at/eot for past.
+- **PolitenessEnding** represents formal or polite sentence endings like eoyo or seumnida.
+- **CR** includes common Korean nouns such as student (haksaeng), friend (chingu), music (eumak), etc.
+- **SubjParticle** marks the subject of the sentence (eun, neun, i, ga).
+- **ObjParticle** marks the object of the sentence (eul, reul).
+- **VoE** includes verb-related endings often seen in conjugations.
+- **EE** includes extra particles that function similarly to prepositions or connectors (wa, gwa, do, eseo).
+- **Empty** represents the absence of a tense marker, often indicating the present tense.
+- **Conj** includes conjunctions used to link phrases or clauses (geurigo, ttoneun, hajiman, waenyaheumyeon).
