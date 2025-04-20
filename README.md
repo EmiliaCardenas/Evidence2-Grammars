@@ -211,12 +211,16 @@ While the current implementation uses Python's NLTK for parsing the Korean gramm
 - **Pros**: NLTK provides a straightforward way to implement and test grammars. It doesn't require a separate compilation process, and everything can be kept in a single Python file, which is simpler and faster for development.
 - **Cons**: NLTK is mainly suited for tasks within Python and doesn’t have the built-in tools for creating web applications like JavaScript/Node.js can provide.
 
-
 ### References
 
 GeeksForGeeks. (2022). *Regular grammar (Model regular grammar)*. GeeksForGeeks. https://www.geeksforgeeks.org/regular-grammar-model-regular-grammars/
+
 GeeksForGeeks. (2023). *Introduction to syntax analysis in compiler design*. GeeksForGeeks. https://www.geeksforgeeks.org/introduction-to-syntax-analysis-in-compiler-design/
+
 Peggy. (n.d.). *Parser generator for JavaScript*. Peggy. https://peggyjs.org/development/index.html
+
 Lark Parser. (2024). *Lark - Parsing toolkit for Python*. Lark Parser. https://lark-parser.readthedocs.io
+
 Asia Society. (n.d.). *Korean language*. Asia Society. https://asiasociety.org/education/korean-language
+
 90 Day Korean. (n.d.). *Korean pronouns*. 90 Day Korean. https://www.90daykorean.com/korean-pronouns/
