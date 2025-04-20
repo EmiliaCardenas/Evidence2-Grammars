@@ -143,6 +143,7 @@ Korean allows multiple noun phrases to be connected with conjunctions. To elimin
 - **NP** represents a single noun phrase, as it was written before.
 
 ### 7. Final Grammar
+```
 S       → NPC VP NPC | NPC VP | VP NPC | VP  
 NPC     → NPC Conj NPCP | NPCP  
 NPCP    → NPC | NP  
@@ -158,9 +159,10 @@ ObjParticle  → eul | reul
 VoE     → neun | eul | reul | ga | i  
 EE      → wa | gwa | do | eseo  
 Empty   →  
-Conj    → geurigo | ttoneun | hajiman | waenyaheumyeon  
+Conj    → geurigo | ttoneun | hajiman | waenyaheumyeon
+```
 
-For explenation:
+For explanation:
 - **S** represents the full sentence structure, allowing different valid Korean sentence forms.
 - **NPC** represents a noun phrase connected by conjunctions.
 - **NPCP** prevents left recursion by separating chained noun phrases from individual ones.
