@@ -126,3 +126,8 @@ For giving and ending in the creation of the sentences, there are some details l
 
 - **VoE:** neun | eul | reul | ga | i
 - **EE:** wa | gwa | do | eseo
+  
+### 5. Conjunctions
+Conjunctions help add more information to the sentences:
+
+- **Conjunction:** geurigo | ttoneun | hajiman | wae냐하면
