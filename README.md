@@ -8,57 +8,42 @@ The most prominent links Korean to the Altaic languages of central Asia, a famil
 ## Korean Language Structure
 Korean is an agglutinative language, meaning that it forms words and expresses grammatical relations by attaching particles or suffixes to a word. Some features include:
 
-### Honorifics:
-Korean has a system of honorifics that affects verb endings and vocabulary. The level of politeness and respect indicated by these forms is essential in conversations. If a person doesn’t use the proper honorifics, it can be disrespectful and create problems.
-
-### No articles:
-Korean does not use definite or indefinite articles. Needing to have context of the conversation to understand if something is plural or not, even the gender of a certain thing, the context is needed.
-
-### Noun particles:
-Korean uses particles attached to nouns to mark case roles, like subject, object, or location. Those help to know when certain nouns have ended and how they are used in the sentence.
-
-### Verb-final:
-Sentences in Korean typically end with a verb. The word order is subject-object-verb (SOV), which ends up with the idea of needing the whole sentence to understand. It’s improbable that the sentence is just the verb, and that way it can be understood.
+- **Honorifics**: Korean has a system of honorifics that affects verb endings and vocabulary. The level of politeness and respect indicated by these forms is essential in conversations.
+- **No articles**: Korean does not use definite or indefinite articles. Understanding plurality or gender often depends on context.
+- **Noun particles**: Particles are used to mark case roles like subject, object, or location.
+- **Verb-final**: Korean follows a subject-object-verb (SOV) word order. Verbs come at the end of the sentence.
 
 ## Nouns
-Korean nouns can undergo changes depending on the grammatical case they are in. For plural formation, the language has some rules:
+Korean nouns change based on grammatical case and number.
 
-### General plural:
-The plural form of most nouns is created by adding `들 (deul)` to the noun.
+### Plural Formation
+- General plural: Add **들 (deul)**.
+  - 책 (chaek) = book → 책들 (chaekdeul) = books
+  - 사람 (saram) = person → 사람들 (saramdeul) = people
 
-Example:
-- 책 (chaek) = book → 책들 (chaekdeul) = books
-- 사람 (saram) = person → 사람들 (saramdeul) = people
-
-### Honorifics and Special Forms:
-Some nouns, especially when referring to people or important things, have honorific versions.
-
-Example:
-- 어머니 (eomeoni) = mother → 어머님 (eomeonim) = respectful form of mother
+### Honorific Nouns
+- Example:
+  - 어머니 (eomeoni) = mother → 어머님 (eomeonim) = respectful form
 
 ## Verb Conjugation
-Korean verbs are conjugated based on tense, politeness, and the subject's role in the sentence. The verb endings change depending on these factors:
 
-### Politeness levels:
-- **Formal polite:** Adding `-습니다 (seumnida)` or `-ㅂ니다 (bnida)`
-  - Example: 먹다 (meokda, to eat, casual) → 먹습니다 (meokseumnida) = I eat (formal)
-  
-- **Informal polite:** Adding `-요 (yo)`
-  - Example: 먹다 (meokda, informal) → 먹어요 (meogeoyo) = I eat (informal polite)
+### Politeness Levels
+- **Formal polite**: -습니다 / -ㅂ니다  
+  - 먹다 → 먹습니다
+- **Informal polite**: -요  
+  - 먹다 → 먹어요
 
-### Tenses:
-- **Past:** Adding `-았/었/였 (at/ot/yot)` before the verb ending.
-  - Example: 먹다 (meokda) → 먹었어요 (meogeosseoyo) = I ate
+### Tenses
+- **Past**: -았/었/였  
+  - 먹다 → 먹었어요
 
 ## Pronouns
-Korean pronouns can be simple or honorific, based on the relationship between the speaker and the listener. That also influences the level of politeness during the conversation. Here are some examples:
+- I: 나 (informal), 저 (formal)
+- You: 너 (informal), 당신 (formal)
 
-- **I:** 나 (na, informal), 저 (jeo, formal)
-- **You:** 너 (neo, informal), 당신 (dangsin, formal)
-
-### Example Sentences
-- **Casual:** 사람들은 책을 읽어요. (Saramdeureun chaegeul ilgeoyo.) = The people read books.
-- **Honorific:** 어머니는 집에 계세요. (Eomeoni-neun jibe gyeseyo.) = My mother is at home (respectful form).
+## Example Sentences
+- 사람들은 책을 읽어요. = The people read books.
+- 어머니는 집에 계세요. = My mother is at home (respectful)
 
 ## Model
 
@@ -82,99 +67,155 @@ Korean pronouns can be simple or honorific, based on the relationship between th
 - boda – to see/watch
 - malhada – to speak
 - saranghada – to love
-- isseoyo – to exist / have (polite form of "itda")
+- isseoyo – to exist / have (polite)
 
 ### Conjunctions
 - geurigo – and
 - ttoneun – or
 - hajiman – but
-- wae냐하면 – because
+- waenyaheumyeon – because
 
 ## Grammar
-Korean has specific sentence structures, particularly with subject-object-verb (SOV) order and the use of particles to mark subjects, objects, and other sentence components. Additionally, Korean has various particles for case markers, topics, and conjunctions, which need to be incorporated into the grammar. For this case, we will focus on the most basic sentence structure.
+Korean has specific sentence structures, particularly with subject-object-verb (SOV) order and the use of particles to mark subjects, objects, and other sentence components. Additionally, Korean has various particles for case markers, topics, and conjunctions, which need to be incorporated into the grammar. For this case, we are going to use the most basic sentence structure, not conditional sentences, questions, etc, straightforward 
 
-### 1. Initial Structure
-In Korean, sentences (S) often consist of noun phrases (NP) followed by verb phrases (VP). However, the subject, object, and verb are marked with particles. The structure to start with will be:
-
-- S → NP_Subj NP_Obj VP
-- S → NP_Subj VP
-- S → NP_Obj VP
-- S → VP
+### 1.Initial Structure
+In Korean, sentences (S) often consist of noun phrases (NP) followed by verb phrases (VS). However, the subject, object, and verb are marked with particles. The way to start the structure will be:
+- S → NP NP VS  
+- S → NP VS  
+- S → VS
 
 ### 2. Noun Phrases and Verb Phrases
-Noun phrases (NP) and verb phrases (VP) break down as follows:
+The way to give the noun phrases and verb phrases a breakdown is to take into consideration the sentence structure established beforehand:
+- NP → CR + SubjParticle  
+- NP → CR + ObjParticle
+- NP → CR
+- NP → CR + NP
 
-- **NP_Subj:** CR + SubjParticle
-- **NP_Obj:** CR + ObjParticle
-- **VP:** VerbStem + TenseMarker + PolitenessEnding
+- VS → VoR + TenseMarker + PolitenessEnding
+- VS → VoR + PolitenessEnding
+- VS → VoR + TenseMarker
+- VS → VoR
 
 ### 3. Verb and Noun Subcategories
-The verb and noun elements are structured as:
+As it was established before, there are roots for the verb (VoR), tenses, and politeness, which in our case are going to be:
+- VoR → gada | meokda | masida | boda | malhada | saranghada
+- TenseMarker → at | eot  
+- PolitenessEnding → eoyo  | seumnida 
 
-- **VoR:** gada | meokda | masida | boda | malhada | saranghada
-- **TenseMarker:** (empty) | at | eot
-- **PolitenessEnding:** eoyo | seumnida
-
-For nouns, we use common ones (CR), and their particles:
-
-- **CR:** haksaeng | seonsaengnim | chingu | mul | jib | haksang | kpop | aideol | eumak | norae | albom
-- **NP_Subj:** eun | neun | i | ga
-- **NP_Obj:** eul | reul
-
-### 4. Other Elements
-For giving and ending in the creation of the sentences, there are some details like verb suffixes (VoE) and particles (EE):
-
-- **VoE:** neun | eul | reul | ga | i
-- **EE:** wa | gwa | do | eseo
+For nouns, we will be using common ones (CR) and their particles:
+- CR → 'haksaeng' | 'seonsaengnim' | 'chingu' | 'mul' | 'jib' | 'haksang' | 'kpop' | 'aideol' | 'eumak' | 'norae' | 'albom'
+- SubjParticle -> 'eun' | 'neun' | 'i' | 'ga'
+- ObjParticle -> 'eul' | 'reul'
   
-### 5. Conjunctions
-Conjunctions help add more information to the sentences:
+### 4. Conjunctions
+The conjunctions, which help add more information to the sentences:
+- Conj → 'geurigo' | 'ttoneun' | 'hajiman' | 'waenyaheumyeon'
 
-- **Conj:** geurigo | ttoneun | hajiman | wae냐하면
-
-### 6. Ambiguity and Left Recursion
+### 5. Ambiguity and Left Recursion
 Korean allows multiple noun phrases to be connected with conjunctions. To eliminate the ambiguity in some cases, a new structure needs to be defined:
-- NPC -> NPC Conj NPCP | NPCP
-- NPCP -> NPC | NP
+- NSC -> NP | NP Conj NP
   
-- **NPC** represents a noun phrase connected by conjunctions.
-- **NPCP** represents a noun phrase or a noun phrase with a conjunction.
+- **NSC** represents a noun phrase connected by conjunctions.
 - **Conj** represents conjunctions.
 - **NP** represents a single noun phrase, as it was written before.
 
-### 7. Final Grammar
+Changing the structure of the sentence to:
+- S -> NSC VS | NSC VS NSC | S Conj S | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
+
+### 6. Final Grammar
 ```
-S       → NPC VP NPC | NPC VP | VP NPC | VP  
-NPC     → NPC Conj NPCP | NPCP  
-NPCP    → NPC | NP  
-NP      → CR SubjParticle  
-NP      → CR ObjParticle  
-VP      → VoR TenseMarker PolitenessEnding  
-VoR     → gada | meokda | masida | boda | malhada | saranghada  
-TenseMarker → Empty | at | eot  
-PolitenessEnding → eoyo | seumnida  
-CR      → haksaeng | seonsaengnim | chingu | mul | jib | haksang | kpop | aideol | eumak | norae | albom  
-SubjParticle → eun | neun | i | ga  
-ObjParticle  → eul | reul  
-VoE     → neun | eul | reul | ga | i  
-EE      → wa | gwa | do | eseo  
-Empty   →  
-Conj    → geurigo | ttoneun | hajiman | waenyaheumyeon
+S -> NSC VS | NSC VS NSC | S Conj S | NSC VS Conj VS | NSC VS Conj NSC VS |NSC NSC VS
+NSC -> NP | NP Conj NP
+NP -> CR SubjParticle | CR ObjParticle | CR | CR NP
+VS -> VoR TenseMarker PolitenessEnding | VoR PolitenessEnding | VoR | VoR TenseEnding
+VoR -> 'gada' | 'meokda' | 'masida' | 'boda' | 'malhada' | 'saranghada'
+TenseMarker -> 'at' | 'eot'
+PolitenessEnding -> 'eoyo' | 'seumnida'
+SubjParticle -> 'eun' | 'neun' | 'i' | 'ga'
+ObjParticle -> 'eul' | 'reul'
+CR -> 'haksaeng' | 'seonsaengnim' | 'chingu' | 'mul' | 'jib' | 'haksang' | 'kpop' | 'aideol' | 'eumak' | 'norae' | 'albom'
+Conj -> 'geurigo' | 'ttoneun' | 'hajiman' | 'waenyaheumyeon'
 ```
 
-For explanation:
-- **S** represents the full sentence structure, allowing different valid Korean sentence forms.
-- **NPC** represents a noun phrase connected by conjunctions.
-- **NPCP** prevents left recursion by separating chained noun phrases from individual ones.
-- **NP** represents a noun followed by either a subject or object particle.
-- **VP** represents the verb phrase, including the verb root, tense marker, and politeness ending.
-- **VoR** includes verb roots like "to go" (gada), "to eat" (meokda), "to drink" (masida), etc.
-- **TenseMarker** shows verb tense, such as Empty for present, at/eot for past.
-- **PolitenessEnding** represents formal or polite sentence endings like eoyo or seumnida.
-- **CR** includes common Korean nouns such as student (haksaeng), friend (chingu), music (eumak), etc.
-- **SubjParticle** marks the subject of the sentence (eun, neun, i, ga).
-- **ObjParticle** marks the object of the sentence (eul, reul).
-- **VoE** includes verb-related endings often seen in conjugations.
-- **EE** includes extra particles that function similarly to prepositions or connectors (wa, gwa, do, eseo).
-- **Empty** represents the absence of a tense marker, often indicating the present tense.
-- **Conj** includes conjunctions used to link phrases or clauses (geurigo, ttoneun, hajiman, waenyaheumyeon).
+**Explanation:**
+
+- `S` → Sentence structure allows different valid Korean sentence forms.  
+- `NSC` → Noun phrase chain with conjunction.  
+- `NP` → A single noun with its particle.  
+- `VP` → Verb phrase with stem, tense, and politeness ending.  
+- `VoR` → Verb roots.  
+- `TenseMarker` → Shows verb tense.  
+- `PolitenessEnding` → Shows the level of politeness in the sentence.  
+- `CR` → Common Korean nouns used in phrases.  
+- `SubjParticle` → Particles marking the subject.  
+- `ObjParticle` → Particles marking the object.  
+- `Conj` → Conjunctions used to connect phrases.
+
+## Implementation
+To test the grammar, a program in Python needs to be written. Adding the grammar established before, some correct sentences, and some incorrect ones. The program prints the trees for the correct ones, but a string that says the sentences are invalid if the sentences don’t follow the structure.
+
+### Correct sentences
+
+- haksaeng eul meokda  
+- chingu eul meokda geurigo saranghada  
+- seonsaengnim i masida  
+- haksaeng eun norae reul masida  
+- jib eul meokda eoyo  
+- haksaeng i saranghada eoyo  
+- mul eul malhada  
+- haksaeng eul meokda hajiman chingu eul malhada  
+- seonsaengnim eun haksaeng eul saranghada  
+- haksaeng i meokda geurigo seonsaengnim i malhada  
+- haksaeng eul malhada  
+- haksaeng i saranghada  
+- seonsaengnim eul masida
+
+### Incorrect sentences
+
+- jib masida wa chingu eul meokda  
+- seonsaengnim i meokda wa haksaeng eul saranghada  
+- chingu eul masida wa jib eul meokda  
+- albom eul meokda eoyoseo norae masida  
+- kpop eul meokda wa eumak eul masida  
+- haksaeng eun haksang eul meokda wa seonsaengnim eul masida
+
+### Running code
+
+To run the code, use the program `koreangrammar.py`. First, you run the pre-established tests to see if the program shows valid results. The second part is the person running the file trying to write a sentence following the rules. The sentence doesn’t have to have any kind of sense, the important thing is that the structure is correct.  
+To create the Python program for testing the Korean grammar and generating syntax trees for valid sentences, it is needed the library **NLTK (Natural Language Toolkit)**.
+
+### Examples of the correct trees
+These are for the valid sentences as trees:
+
+![Trees](Trees.png)
+
+## Analysis
+The structure of the Korean grammar involves parsing and checking various parts of the sentence, such as noun phrases (NP), verb phrases (VS), and their corresponding particles. 
+
+- **Word Segmentation**: The grammar requires the separation of the root word and the endings (like verb stems or noun particles). This process requires checking each word, and with a loop iterating over each word of a sentence, this results in **O(n)** complexity.
+- **Parsing with Loops**: For each sentence, we iterate over its parts (Noun Phrases, Verb Phrases), which is an **O(n)** operation. Since the structure of the grammar is LL(1), we only generate one possible parse tree, which results in **O(1)** complexity.
+- **Total Complexity**: The overall time complexity remains **O(n)**.
+
+Korean grammar can be classified as a Context-Free Grammar (CFG).  
+**Context-Free Grammar:** Each production rule has a single non-terminal on the left side, and a combination of non-terminals and terminals on the right side (e.g., S -> NSC VS | NSC VS NSC). This structure satisfies the definition of context-free grammar, where the left side has a single non-terminal, and the right side can have both terminals and non-terminals.
+
+While the current implementation uses Python's NLTK for parsing the Korean grammar, other tools or languages could be explored for implementing similar functionality. For example, a JavaScript library called Peggy (previously known as Peg.js) could be a viable alternative.
+
+**Peggy for Node.js:**
+
+- **Pros**: Peggy allows you to define grammar in a separate file and then compile it into a parser. It is highly documented and provides tools for building parsers directly from the grammar.
+- **Cons**: The process of compiling the grammar takes extra time, and the learning curve for setting it up is steeper compared to NLTK in Python.
+
+**NLTK for Python:**
+
+- **Pros**: NLTK provides a straightforward way to implement and test grammars. It doesn't require a separate compilation process, and everything can be kept in a single Python file, which is simpler and faster for development.
+- **Cons**: NLTK is mainly suited for tasks within Python and doesn’t have the built-in tools for creating web applications like JavaScript/Node.js can provide.
+
+
+## References
+- [GeeksForGeeks – Regular grammar](https://www.geeksforgeeks.org/regular-grammar-model-regular-grammars/)
+- [GeeksForGeeks – Syntax analysis](https://www.geeksforgeeks.org/introduction-to-syntax-analysis-in-compiler-design/)
+- [Peggy.js](https://peggyjs.org/development/index.html)
+- [Lark Parser](https://lark-parser.readthedocs.io)
+- [Asia Society – Korean language](https://asiasociety.org/education/korean-language)
+- [90 Day Korean – Pronouns](https://www.90daykorean.com/korean-pronouns/)
