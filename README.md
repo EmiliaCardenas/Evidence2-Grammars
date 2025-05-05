@@ -146,9 +146,16 @@ To eliminate the ambiguity and left recursion, it ends up looking something like
 - **NSC** represents a noun phrase connected by conjunctions.
 - **Conj** represents conjunctions.
 - **NP** represents a single noun phrase, as it was written before.
-- 
+
+In the code, it will be represented as:
 ```
+NSC -> NP
+     | NP Conj NP
+     | NP Conj NP Conj NP
+```
+
 And we refactored the sentence structure.
+```
 - S -> NSC VS | NSC VS NSC | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
 ```
 
