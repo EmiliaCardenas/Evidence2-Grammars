@@ -122,25 +122,45 @@ The conjunctions, which help add more information to the sentences:
 - Conj → 'geurigo' | 'ttoneun' | 'hajiman' | 'waenyaheumyeon'
 ```
 
-### 5. Ambiguity and Left Recursion
-Korean allows multiple noun phrases to be connected with conjunctions. To eliminate the ambiguity in some cases, a new structure needs to be defined:
+### 5. Before Fixing Ambiguity and Left Recursion
 ```
-- NSC -> NP | NP Conj NP
+S -> S Conj S | NP VS | NP VS NP
+NP -> CR SubjParticle | CR ObjParticle | CR
+VS -> VoR TenseMarker PolitenessEnding | VoR PolitenessEnding | VoR
+VoR -> 'gada' | 'meokda' | 'masida' | 'boda' | 'malhada' | 'saranghada'
+TenseMarker -> 'at' | 'eot'
+PolitenessEnding -> 'eoyo' | 'seumnida'
+SubjParticle -> 'eun' | 'neun' | 'i' | 'ga'
+ObjParticle -> 'eul' | 'reul'
+CR -> 'haksaeng' | 'seonsaengnim' | 'chingu' | 'mul' | 'jib' | 'haksang' | 'kpop' | 'aideol' | 'eumak' | 'norae' | 'albom'
+Conj -> 'geurigo' | 'ttoneun' | 'hajiman' | 'waenyaheumyeon'
 ```
-  
+
+### 6. Ambiguity and Left Recursion 
+First, we need to find the problems in the code: Left Recursion in `S -> S Conj S` and Ambiguity in `S -> NP VS NP`,`NP -> CR SubjParticle | CR ObjParticle | CR` and `NSC -> NP Conj NP`.
+For that, a new group, **NSC**, the noun phrase connected by conjunctions, is needed. Korean allows multiple noun phrases to be connected with conjunctions. 
+To eliminate the ambiguity and left recursion, it ends up looking something like this:
+```
+- NSC → NP (Conj NP)*
+```
 - **NSC** represents a noun phrase connected by conjunctions.
 - **Conj** represents conjunctions.
 - **NP** represents a single noun phrase, as it was written before.
+- 
+```
+And we refactored the sentence structure.
+- S -> NSC VS | NSC VS NSC | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
+```
 
 Changing the structure of the sentence to:
 ```
-- S -> NSC VS | NSC VS NSC | S Conj S | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
+- S → NSC VS | NSC VS NSC | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
 ```
 
-### 6. Final Grammar
+### 7. Final Grammar
 ```
-S -> NSC VS | NSC VS NSC | S Conj S | NSC VS Conj VS | NSC VS Conj NSC VS |NSC NSC VS
-NSC -> NP | NP Conj NP
+S -> NSC VS | NSC VS NSC | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
+NSC -> NP (Conj NP)* 
 NP -> CR SubjParticle | CR ObjParticle | CR | CR NP
 VS -> VoR TenseMarker PolitenessEnding | VoR PolitenessEnding | VoR | VoR TenseEnding
 VoR -> 'gada' | 'meokda' | 'masida' | 'boda' | 'malhada' | 'saranghada'
