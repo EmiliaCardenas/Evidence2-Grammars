@@ -80,47 +80,62 @@ Korean has specific sentence structures, particularly with subject-object-verb (
 
 ### 1.Initial Structure
 In Korean, sentences (S) often consist of noun phrases (NP) followed by verb phrases (VS). However, the subject, object, and verb are marked with particles. The way to start the structure will be:
+```
 - S → NP NP VS  
 - S → NP VS  
 - S → VS
+```
 
 ### 2. Noun Phrases and Verb Phrases
 The way to give the noun phrases and verb phrases a breakdown is to take into consideration the sentence structure established beforehand:
+```
 - NP → CR + SubjParticle  
 - NP → CR + ObjParticle
 - NP → CR
 - NP → CR + NP
-
+```
+```
 - VS → VoR + TenseMarker + PolitenessEnding
 - VS → VoR + PolitenessEnding
 - VS → VoR + TenseMarker
 - VS → VoR
+```
 
 ### 3. Verb and Noun Subcategories
 As it was established before, there are roots for the verb (VoR), tenses, and politeness, which in our case are going to be:
+```
 - VoR → gada | meokda | masida | boda | malhada | saranghada
 - TenseMarker → at | eot  
-- PolitenessEnding → eoyo  | seumnida 
+- PolitenessEnding → eoyo  | seumnida
+```
 
 For nouns, we will be using common ones (CR) and their particles:
+```
 - CR → 'haksaeng' | 'seonsaengnim' | 'chingu' | 'mul' | 'jib' | 'haksang' | 'kpop' | 'aideol' | 'eumak' | 'norae' | 'albom'
 - SubjParticle -> 'eun' | 'neun' | 'i' | 'ga'
 - ObjParticle -> 'eul' | 'reul'
+```
   
 ### 4. Conjunctions
 The conjunctions, which help add more information to the sentences:
+```
 - Conj → 'geurigo' | 'ttoneun' | 'hajiman' | 'waenyaheumyeon'
+```
 
 ### 5. Ambiguity and Left Recursion
 Korean allows multiple noun phrases to be connected with conjunctions. To eliminate the ambiguity in some cases, a new structure needs to be defined:
+```
 - NSC -> NP | NP Conj NP
+```
   
 - **NSC** represents a noun phrase connected by conjunctions.
 - **Conj** represents conjunctions.
 - **NP** represents a single noun phrase, as it was written before.
 
 Changing the structure of the sentence to:
+```
 - S -> NSC VS | NSC VS NSC | S Conj S | NSC VS Conj VS | NSC VS Conj NSC VS | NSC NSC VS
+```
 
 ### 6. Final Grammar
 ```
